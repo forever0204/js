@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>study</title>
+</head>
+<body>
+  <script type="text/javascript" src='test.js'>
+    
+  </script>
+<div id="test-div">
+<div class="c-red">
+    <p id="test-p">JavaScript</p>
+    <p>Java</p>
+  </div>
+  <div class="c-red c-green">
+    <p>Python</p>
+    <p>Ruby</p>
+    <p>Swift</p>
+  </div>
+  <div class="c-green">
+    <p>Scheme</p>
+    <p>Haskell</p>
+  </div>
+</div>
+<div id="s1">
+  <form id="test-register" action="#" target="_blank" onsubmit="return checkRegisterForm()">
+    <p id="test-error" style="color:red"></p>
+    <p>
+        用户名: <input type="text" id="username" name="username">
+    </p>
+    <p>
+        口令: <input type="password" id="password" name="password">
+    </p>
+    <p>
+        重复口令: <input type="password" id="password-2">
+    </p>
+    <p>
+        <button type="submit">提交</button> <button type="reset">重置</button>
+    </p>
+</form>
+</div>
+<div>
+  <span style=" position:absolute;border:1pt solid #c1c1c1; overflow:hidden;width:188px;height:19px;clip:rect(-1px 190px 190px 170px);"> 
+<select name="aabb" id="aabb" style="width:190px;height:20px;margin:-2px;" 
+onChange="javascript:document.getElementById('ccdd').value=document.getElementById('aabb').options[document.getElementById('aabb').selectedIndex].value;"> 
+<option value="" style="color:#c2c2c2;">--请选择--</option> 
+<option value="北京">北京</option> 
+<option value="上海">上海</option> 
+<option value="广州">广州</option> 
+<option value="上123">上123</option> 
+<option value="苏州">苏州</option> 
+</select> 
+</span> 
+<span style="position:absolute; border:1pt solid #c1c1c1;border-left:1pt solid #c1c1c1;border-bottom:1pt solid #c1c1c1;width:170px;height:19px;"> 
+<input type="text" name="ccdd" id="ccdd" value="可选择也可输入的下拉框" style="width:170px;height:15px;border:0pt;" onkeyup="onku()"> 
+</span> 
+</div>
+</body>
+</html>
